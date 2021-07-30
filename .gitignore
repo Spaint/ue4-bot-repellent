@@ -1,0 +1,26 @@
+syntax: glob
+DerivedDataCache/*
+Intermediate/*
+Saved/*
+Binaries/*
+IOS_Backups/*
+Content/ExternalAssets/*
+Build/*/FileOpenOrder/*
+*.orig
+
+# Visual Studio solutions
+.vs/*
+
+*.sln
+*.sdf
+*.opensdf
+*.suo
+
+# Xcode Project files
+*.xcodeproj
+# Default ignored files
+.idea/*
+
+*.PackageVersionCounter
+
+*/Data/*.csv
